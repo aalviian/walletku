@@ -17,12 +17,15 @@ Requires Python 3.
     'CONN_MAX_AGE': 0
 }
 ```
-3.. At the root directory, run below command:
+3. At the root directory, run below command:
 ```csharp
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+4. See the API Documentation.
+http://localhost:8000/api/v1/docs/
+
 
 ### Before committing code
 - Run `pytest`
