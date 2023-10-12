@@ -84,7 +84,7 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'NAME': 'walletku',
         'USER': 'root',
-        'PASSWORD': 'orami123',
+        'PASSWORD': '',
         'CONN_MAX_AGE': 0
     }
 }
