@@ -1,0 +1,12 @@
+WalletUser.objects.get_or_create(customer_xid="ea0212d3-abd6-406f-8c67-868e814a2436")
+WalletAccount.objects.create(owned_by_id=1, balance=1000)
+wallet = WalletAccount.objects.first()
+user = WalletUser.objects.get_or_create(customer_xid="ea0212d3-abd6-406f-8c67-868e814a2436")
+user = user[0]
+user.user_transactions.get()
+user.wallet
+user.wallet.transactions.get()
+
+{
+  "customer_xid": "ea0212d3-abd6-406f-8c67-868e814a2436"
+}
